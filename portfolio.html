@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Troy's Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <!-- Desktop Nav -->
+    <nav id="desktop-nav">
+        <div class="logo">TS</div>
+        <div>
+            <ul class="nav-links">
+                <li>
+                    <a href="./index.html">Home</a>
+                </li>
+                <li>
+                    <a href="./portfolio.html">Portfolio</a>
+                </li>
+                <li>
+                    <a href="./about.html">About</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Mobile Nav -->
+    <nav id="hamburger-nav">
+        <div class="logo">TS</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li>
+                    <a href="./index.html" onclick="toggleMenu()">Home</a>
+                </li>
+                <li>
+                    <a href="./portfolio.html" onclick="toggleMenu()">Portfolio</a>
+                </li>
+                <li>
+                    <a href="./about.html" onclick="toggleMenu()">About</a>
+                </li>
+                <li>
+                    <a href="#contact" onclick="toggleMenu()">Contact</a>
+                </li>
+            </div>
+        </div>
+    </nav>
+    <!-- portfolio Section -->
+    <section id="portfolio">
+        <p class="section-text-p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project1-placeholder.png" alt="project1-placeholder" class="project-img">
+                    </div>
+                    <h2 class="experience-subtitle project-title">Project 1</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                            Demo
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project2-placeholder.png" alt="project2-placeholder" class="project-img">
+                    </div>
+                    <h2 class="experience-subtitle project-title">Project 2</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                            Demo
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project3-placeholder.png" alt="project3-placeholder" class="project-img">
+                    </div>
+                    <h2 class="experience-subtitle project-title">Project 3</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                            Demo
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <p class="section-text-p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assets/email.svg" alt="email icon" class="icon contact-icon">
+                <p>
+                    <a href="mailto:examplemail@gmail.com">example@gmail.com</a>
+                </p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assets/linkedin-black-logo.png" alt="linkdin icon" class="icon contact-icon">
+                <p>
+                    <a href="https://www.linkedin.com/in/troy-saraphanh-184735232/">Linkedin</a>
+                </p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav class="nav-links-footer">
+            <ul class="nav-links">
+                <li>
+                    <a href="./index.html">Home</a>
+                </li>
+                <li>
+                    <a href="./portfolio.html">Portfolio</a>
+                </li>
+                <li>
+                    <a href="./about.html">About</a>
+                </li>
+
+            </ul>
+        </nav>
+        <p>Copyright &#169 2023 Troy Saraphanh All Rights Reserved</p>
+    </footer>
+
+
+    <script src="javascript.js"></script>
+</body>
+</html>
