@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Troy's Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <!-- Desktop Nav -->
+    <nav id="desktop-nav">
+        <div class="logo">TS</div>
+        <div>
+            <ul class="nav-links">
+                <li>
+                    <a href="./index.html" class="active-link">Home</a>
+                </li>
+                <li>
+                    <a href="./portfolio.html">Portfolio</a>
+                </li>
+                <li>
+                    <a href="./about.html">About</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Mobile Nav -->
+    <nav id="hamburger-nav">
+        <div class="logo">TS</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li>
+                    <a href="./index.html" onclick="toggleMenu()">Home</a>
+                </li>
+                <li>
+                    <a href="./portfolio.html" onclick="toggleMenu()">Portfolio</a>
+                </li>
+                <li>
+                    <a href="./about.html" onclick="toggleMenu()">About</a>
+                </li>
+                <li>
+                    <a href="#contact" onclick="toggleMenu()">Contact</a>
+                </li>
+            </div>
+        </div>
+    </nav>
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="section-text">
+            <p class="section-text-p1"></p>
+            <h1 class="title">Thank You</h1>
+            <p class="section-text-p2">I'll get back to you shortly!
+            </p>
+            
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+
+        <p>Copyright &#169 2023 Troy Saraphanh All Rights Reserved</p>
+    </footer>
+
+
+    <script src="javascript.js"></script>
+</body>
+</html>
